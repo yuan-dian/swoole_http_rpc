@@ -8,7 +8,7 @@
   $demo = [
       'class' => 'DingMsg',
       'method' => 'run',
-      'type' => 'SN',
+      'type' => 'SN', //SN:异步，SW:同步
       'param' => [
           'access_token' => 'token', //钉钉机器人token
           'message' => '123',
@@ -18,7 +18,7 @@
   
   $curl = curl_init();
   //设置抓取的url
-  curl_setopt($curl, CURLOPT_URL, 'http://47.98.161.233:9601/');
+  curl_setopt($curl, CURLOPT_URL, 'http://127.0.0.1:9601/'); //实际服务地址
   //设置头文件的信息作为数据流输出
   curl_setopt($curl, CURLOPT_HEADER, 1);
   //设置获取的信息以文件流的形式返回，而不是直接输出。
