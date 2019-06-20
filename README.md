@@ -35,3 +35,6 @@
   print_r($data);
   
   ~~~
+   ## 捐献
+  ![](http://blog.zhuangjun.top/images/wx_reward.png) 
+  ![](http://blog.zhuangjun.top/images/ali_reward.png) 
